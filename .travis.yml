@@ -1,0 +1,2 @@
+language: java
+script: cd Morix_Java_Outils && mvn clean compile
