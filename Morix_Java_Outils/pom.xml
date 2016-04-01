@@ -43,6 +43,20 @@
               </execution>
           </executions>
       </plugin>
+      <plugin>
+	      <groupId>org.jacoco</groupId>
+	      <artifactId>jacoco-maven-plugin</artifactId>
+	      <version>0.7.7-SNAPSHOT</version>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-pmd-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>findbugs-maven-plugin</artifactId>
+        <version>3.0.4-SNAPSHOT</version>
+      </plugin>
     </plugins>
   </build>
   <dependencies>
